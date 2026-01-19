@@ -1,0 +1,11 @@
+.footer-bottom-wrapper {
+  width: 100%;               /* Full screen width */
+  background-color: #080b16;    /* Black background */
+  color: #fdfcfc;               /* White text */
+  text-align: center;        /* Center text horizontally */
+  padding: 20px 0;           /* Vertical padding */
+  display: flex;             /* Flex for vertical centering */
+  justify-content: center;   /* Center horizontally */
+  align-items: center;       /* Center vertically */
+  font-size: 1rem;           /* Text size */
+}

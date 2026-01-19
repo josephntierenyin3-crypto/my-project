@@ -1,0 +1,17 @@
+.latest-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.latest-section h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+.latest-section p {
+    font-size: 16px;
+    color: #070707;
+    line-height: 1.5;
+    text-align: center;
+}

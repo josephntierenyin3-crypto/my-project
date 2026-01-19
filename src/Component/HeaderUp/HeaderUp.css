@@ -1,0 +1,44 @@
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0a1a2f; /* blue-black */
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+.topbar-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+}
+
+.line {
+  width: 1px;
+  height: 16px;
+  background-color: #4da3ff;
+}
+
+.topbar-right select {
+  background-color: #0a1a2f;
+  color: #ffffff;
+  border: 1px solid #4da3ff;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.topbar-right select option {
+  background-color: #0a1a2f;
+  color: #ffffff;
+}
+.topbar-right select option:hover {
+  background-color: #1a2a4f;
+}
