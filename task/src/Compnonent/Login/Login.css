@@ -1,0 +1,115 @@
+/* Previous style and colour (#2c5364) */
+.login-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app-title {
+  color: #ffffff;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.login-container h2 {
+  color: #ffffff;
+  font-size: 2.6rem;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  background: #ffffff;
+  padding: 40px;
+  width: 100%;
+  max-width: 380px;
+  border-radius: 14px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.35);
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form input {
+  font-size: 1.1rem;
+  padding: 14px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.login-form input:focus {
+  border-color: #2c5364;
+  box-shadow: 0 0 6px rgba(44, 83, 100, 0.5);
+}
+
+.login-form button {
+  font-size: 1.2rem;
+  padding: 14px;
+  background: #2c5364;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.login-form button:hover {
+  background: #203a43;
+  transform: translateY(-2px);
+}
+
+.error {
+  color: red;
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.role-selection {
+  display: flex;
+  gap: 20px;
+  margin: 10px 0 20px;
+}
+
+.role-selection label {
+  font-size: 1rem;
+  cursor: pointer;
+  color: #333;
+}
+
+.role-selection input[type="radio"] {
+  margin-right: 5px;
+}
+
+.login-form .info {
+  margin-top: 15px;
+  font-size: 1rem;
+  color: #2e53cc;
+  text-align: center;
+}
+
+.login-form .info a {
+  color: #2c5364;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.login-form .info a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  .login-form {
+    padding: 1.5rem;
+  }
+  .login-container h2 {
+    font-size: 2rem;
+  }
+}
